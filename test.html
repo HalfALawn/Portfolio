@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Language Switcher</title> 
+    <style> 
+        body { font-family: Arial, sans-serif; } 
+        .container { margin: 20px; } 
+    </style> 
+</head> 
+<body> 
+    <div class="container"> 
+        <h1 id="title">Hello, World!</h1> 
+        <p id="description">This is a simple language switcher example.</p> 
+        <button onclick="switchLanguage()">Switch to Spanish</button> 
+    </div> 
+ 
+    <script> 
+        let currentLanguage = 'en'; 
+ 
+        const translations = { 
+            en: { 
+                title: 'Hello, World!', 
+                description: 'This is a simple language switcher example.', 
+                button: 'Switch to Spanish' 
+            }, 
+            es: { 
+                title: '¡Hola, Mundo!', 
+                description: 'Este es un ejemplo simple de cambio de idioma.', 
+                button: 'Cambiar a Inglés' 
+            } 
+        }; 
+ 
+        function switchLanguage() { 
+            currentLanguage = currentLanguage === 'en' ? 'es' : 'en'; 
+            document.getElementById('title').innerText = translations[currentLanguage].title; 
+            document.getElementById('description').innerText = translations[currentLanguage].description; 
+            document.querySelector('button').innerText = translations[currentLanguage].button; 
+        } 
+    </script> 
+</body> 
+</html> 
