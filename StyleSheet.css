@@ -8,18 +8,18 @@ body {
   }
 
 /* FOOTER CODE ---DO NOT TOUCH--- */
-footer {
-    font-family: Roboto, sans-serif;
-    text-indent: 7.5%;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    background-color:#000000;
-    color: #ffffff;
-    text-align: right;
-    font-size: 100%;
-  }
+#footer {
+  font-family: Roboto, sans-serif;
+  text-indent: 7.5%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  background-color:#000000;
+  color: #ffffff;
+  text-align: right;
+  font-size: 100%;
+}
 /* FOOTER CODE ---DO NOT TOUCH--- */
