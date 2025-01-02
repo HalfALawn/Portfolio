@@ -12,10 +12,11 @@ body {
   font-family: Roboto, sans-serif;
   position: fixed;
   bottom: 0;
+  text-indent: 7.5%;
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-right: 7.5%;
+  padding-right: 10px;
   background-color:#000000;
   color: #ffffff;
   text-align: right;
