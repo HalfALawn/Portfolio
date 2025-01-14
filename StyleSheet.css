@@ -19,7 +19,17 @@ ul.navmain {
   text-align: center;
   text-decoration: none;
   }
-
+  ul.navmain > li {
+    padding: 10px;
+  }
+  ul.navmain > li:hover {
+    background-color: #646464;
+  }
+  ul.navmain > li > a {
+    color: #ff9600;
+    text-decoration: none;
+  }
+  
 /* FOOTER CODE ---DO NOT TOUCH--- */
 #footer {
   font-family: Roboto, sans-serif;
