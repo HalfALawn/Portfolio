@@ -8,6 +8,18 @@ body {
   color: #808080;
   }
 
+ul.navmain {
+  font-family: Lato, sans-serif;
+  width:9%;
+  font-size: 80%;
+  position: fixed;
+  right: 0;
+  padding: 1%;
+  background-color: clear;
+  text-align: center;
+  text-decoration: none;
+  }
+
 /* FOOTER CODE ---DO NOT TOUCH--- */
 #footer {
   font-family: Roboto, sans-serif;
