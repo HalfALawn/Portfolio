@@ -18,7 +18,7 @@
         <div id="navmain">
             <ul class="navmain">
               <li><a style="color:#00ff00;" href="#top">Back To Top</a></li>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="indexCN.html">主页</a></li>
               <li><a href="skillsCN.html">技能</a></li>
               <li><a href="experienceCN.html">经验</a></li>
               <li><a href="educationCN.html">学历</a></li>
