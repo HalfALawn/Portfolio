@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yue Yang's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="StyleSheetEN.css">
+    <link rel="stylesheet" type="text/css" href="StyleSheetCN.css">
     <link rel="shortcut icon" type="image/png" href="Images/IconRedoSS.png">
   </head>
 
   <body>
 
     <div id="header">
-        <h1>洪岳陽的</h1>
+        <h1>洪岳陽的自我介绍</h1>
     </div>
     <div id="content">
 
@@ -19,10 +19,10 @@
             <ul class="navmain">
               <li><a style="color:#00ff00;" href="#top">Back To Top</a></li>
               <li><a href="index.html">Home</a></li>
-              <li><a href="skillsEN.html">Skillset</a></li>
-              <li><a href="experienceEN.html">Experience</a></li>
-              <li><a href="educationEN.html">Education</a></li>
-              <li><a href="hobbyEN.html">Hobbies</a></li>
+              <li><a href="skillsCN.html">技能</a></li>
+              <li><a href="experienceCN.html">经验</a></li>
+              <li><a href="educationCN.html">学历</a></li>
+              <li><a href="samplesCN.html">作品集</a></li>
               <li><a href="test.html">test</a></li>
         </div>
 
